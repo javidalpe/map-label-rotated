@@ -16,6 +16,10 @@ This assumes you are using npm as your package manager.
 
 ## Usage
 
+Import it: 
+
+	import { RotatedLabel } from "map-label-rotated";
+
 Hello world with default styles:
 
 	new RotatedLabel(new google.maps.LatLng(0, 0), "Hellow world", 45, map);
