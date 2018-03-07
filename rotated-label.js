@@ -1,6 +1,6 @@
 export class RotatedLabel extends google.maps.OverlayView {
 
-	constructor(position, text = '', rotation = 0, map, customStyles = {}) {
+	constructor(position, text, rotation, map, customStyles = {}) {
 		super();
 
 		// Initialize all properties.

@@ -22,7 +22,7 @@ Hello world with rotation without styles:
 	
 Hello world with rotation witho custom styles:
 
-	new RotatedLabel(new google.maps.LatLng(0, 0), "Hellow world", 45, {
+	new RotatedLabel(new google.maps.LatLng(0, 0), "Hellow world", 45, map, {
 		color: "red",
 		fontSize: "22px",
 	});
@@ -35,8 +35,8 @@ Param | Type  | Description
 -------|------|------------
 **`position`** | [`LatLng`](https://developers.google.com/maps/documentation/javascript/reference/3.exp/coordinates#LatLng) | Label position. Required.
 **`text`** | `string` | Label text. Required.
-**`rotation`** | `number` | Label rotation in degrees.
-**`map`** | [`Map`](https://developers.google.com/maps/documentation/javascript/reference/3.exp/map#Map) | Map on which to display label.
+**`rotation`** | `number` | Label rotation in degrees. Required.
+**`map`** | [`Map`](https://developers.google.com/maps/documentation/javascript/reference/3.exp/map#Map) | Map on which to display label. Required.
 **`customStyles`** | [`Style object`](https://www.w3schools.com/jsref/dom_obj_style.asp) | Set of CSS properties. Optional.
 
 ## License
