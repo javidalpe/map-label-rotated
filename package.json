@@ -1,0 +1,25 @@
+{
+  "name": "map-label-rotated",
+  "version": "1.0.0",
+  "description": "Simple Javascript library to display rotated text on Google Maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javidalpe/map-label-rotated.git"
+  },
+  "keywords": [
+    "google-maps",
+    "maps",
+    "overlay",
+    "gmaps"
+  ],
+  "author": "Javier Vidal Peña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javidalpe/map-label-rotated/issues"
+  },
+  "homepage": "https://github.com/javidalpe/map-label-rotated#readme"
+}
