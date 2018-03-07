@@ -2,9 +2,9 @@
 
 Simple Javascript library to display rotated text on Google Maps.
 
-Example:
+Example usage along a polyline:
 
-[Demo image](img/demo.png)
+![Demo image](img/demo.png)
 
 
 ## Installation
@@ -16,11 +16,11 @@ This assumes you are using npm as your package manager.
 
 ## Usage
 
-Hello world with rotation without styles:
+Hello world with default styles:
 
 	new RotatedLabel(new google.maps.LatLng(0, 0), "Hellow world", 45, map);
 	
-Hello world with rotation witho custom styles:
+Hello world with custom styles:
 
 	new RotatedLabel(new google.maps.LatLng(0, 0), "Hellow world", 45, map, {
 		color: "red",
