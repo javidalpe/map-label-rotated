@@ -75,6 +75,10 @@ export class RotatedLabel extends google.maps.OverlayView {
 	// The onRemove() method will be called automatically from the API if
 	// we ever set the overlay's map property to 'null'.
 	onRemove() {
+		if (!this.div_) {
+			return;
+		}
+
 		this.div_.parentNode.removeChild(this.div_);
 		this.div_ = null;
 	};
