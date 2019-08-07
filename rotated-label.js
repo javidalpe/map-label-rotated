@@ -32,13 +32,13 @@ export class RotatedLabel extends google.maps.OverlayView {
 		div.style.borderStyle = 'none';
 		div.style.borderWidth = '0px';
 		div.style.position = 'absolute';
+		div.style.transform = 'translate(-50%, 0)';
 
 		// Create the img element and attach it to the div.
 		const textElement = document.createElement('div');
 		textElement.textContent = this.text_;
 		textElement.style.transform = `rotate(${this.rotation_}deg)`;
 		textElement.style.transformOrigin = "50% 50%";
-		textElement.style.position = 'absolute';
 		textElement.style.whiteSpace = 'nowrap';
 		for (let [key, value] of Object.entries(this.customStyles_)) {
 			textElement.style[key] = value;

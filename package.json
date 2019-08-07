@@ -1,6 +1,6 @@
 {
   "name": "map-label-rotated",
-  "version": "1.0.1",
+  "version": "1.1",
   "description": "Simple Javascript library to display rotated text on Google Maps.",
   "main": "rotated-label.js",
   "scripts": {
