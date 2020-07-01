@@ -1,4 +1,4 @@
-export class RotatedLabel extends google.maps.OverlayView {
+export class RotatedLabel extends window.google.maps.OverlayView {
 
 	constructor(position, text, rotation, map, customStyles = {}) {
 		super();
